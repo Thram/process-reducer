@@ -1,9 +1,11 @@
 # process-reducer
-Creates a reducer from a map of functions like: 
+Organise and compose your reducers more efficiently a `functional` approach.
 
-`{ [ACTION_TYPE]:[ACTION_HANDLER], ... }`
+With this micro library you can create reducers from maps of functions like: `{ ACTION_TYPE: handler(), ... }`
 
-## Convert this:
+# Example
+
+## Convert this ***(Old Switch/Case approach)***:
 
 ```javascript
 const initialState = {
@@ -49,7 +51,7 @@ function appReducer(state = initialState, action) {
 export default appReducer;
 ```
 
-## Into this:
+## Into this ***(Functional approach)***:
 ```javascript
 import processReducer from 'process-reducer';
 
