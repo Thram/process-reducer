@@ -46,7 +46,8 @@ function appReducer(state = initialState, action) {
   }
 }
 
-export default appReducer;```
+export default appReducer;
+```
 
 ## Into this:
 ```javascript
@@ -82,5 +83,6 @@ const reducers = {
   }),
 };
 
-export default processReducer(reducer, initialState);```
+export default processReducer(reducer, initialState);
+```
 
