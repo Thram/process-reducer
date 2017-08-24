@@ -1,7 +1,7 @@
 {
   "name": "process-reducer",
   "version": "0.0.0-development",
-  "description": "Creates a reducer from a map of functions like: { [ACTION_TYPE]:[ACTION_HANDLER], ... } Edit",
+  "description": "Creates a reducer from a map of functions like: { ACTION_TYPE: handler() }",
   "main": "dist/index.js",
   "scripts": {
     "precommit": "npm run lint",
