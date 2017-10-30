@@ -1,5 +1,5 @@
 # process-reducer
-Organise and compose your reducers more efficiently a `functional` approach.
+Organise and compose your reducers more efficiently with a `functional` approach.
 
 With this micro library you can create reducers from maps of functions like: `{ ACTION_TYPE: handler(), ... }`
 
