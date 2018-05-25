@@ -1,4 +1,7 @@
 # process-reducer
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Thram/process-reducer.svg)](https://greenkeeper.io/)
+
 Organise and compose your reducers more efficiently with a `functional` approach.
 
 With this micro library you can create reducers from maps of functions like: `{ ACTION_TYPE: handler(), ... }`
